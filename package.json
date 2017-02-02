@@ -1,6 +1,6 @@
 {
     "name": "wi.core.template",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "WebIDE template manager",
     "author": "André Ferreira <andrehrf@gmail.com>",
     "license": "MIT",
@@ -10,5 +10,9 @@
     },
     "bugs": {"url": "https://github.com/jsrun/wi.core.template/issues"},
     "homepage": "https://github.com/jsrun/wi.core.template",
-    "scripts": {"test": "mocha"}
+    "scripts": {"test": "mocha"},
+    "dependencies": {
+        "ejs": "^2.5.1",
+        "i18n": "^0.8.3"
+    }
 }
